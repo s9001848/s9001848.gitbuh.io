@@ -27,10 +27,15 @@ footer {
   padding: 25px;
 }
 
+h1 {
+  margin: 0px;
+}
+
 h2 {
   font-size: 32px;
   color: #d06038;
   margin-bottom: 16px;
+  margin-top: 0px;
 }
 
 p {
@@ -40,6 +45,8 @@ p {
 nav ul {
   list-style-type: none;
   margin-bottom: 60px;
+  padding-left: 0px;
+  margin-top: 0px;
 }
 
 nav ul li a {
