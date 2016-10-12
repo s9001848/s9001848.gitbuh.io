@@ -139,14 +139,28 @@ table {
 /* Start Header styles*/
 
 header {
-  background-color: White;
+  background-color: solid white;
   padding: 35px;
 }
 
 h1 {
   font-size: 35px;
-  letter-spacing: 12px;
+  letter-spacing: 10px;
   font-variant: normal;
   color: black;
   font-weight: bold;
+}
+
+byline {
+	color: black;
+}
+
+.posts {
+	width: 698px;
+	background-color: black;
+	padding: 35px;
+}
+
+article {
+	margin-bottom: 35px;
 }
