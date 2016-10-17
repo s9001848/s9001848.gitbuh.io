@@ -140,10 +140,14 @@ table {
 
 header {
   background-color: solid white;
+	margin-top: 40px;
 }
 
 body {
-	background-color: black;
+	background-image: url("http://getbg.net/upload/full/www.GetBg.net_Backgrounds_Abstract_chaos_on_black_wallpaper_078576_.jpg");
+	background-size: 2560px 1920px;
+	background-repeat: no-repeat;
+	display: compact;
 }
 
 h1 {
@@ -213,8 +217,12 @@ h4 {
 	font-weight: bold;
 }
 
+footer p {
+	margin: 0px;
+}
+
 footer {
 	clear: both;
 	background-color: white;
-	padding: 35px;
+	margin-bottom: 40px;
 }
