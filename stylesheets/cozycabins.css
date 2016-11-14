@@ -1,0 +1,182 @@
+/*Start CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/v2.0 | 20110126 License: none (public domain)*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody, tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: 'Corben', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+.columns {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  left: 300px;
+  right: 200px;
+}
+
+body {
+  background-image: url("../images/cc-bg.jpg");
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  left: 450px;
+  margin-top: 100px;
+  background-color: none;
+  display: block;
+}
+
+li {
+  float: left;
+  padding-left: 50px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Corben', cursive;
+}
+
+h2 {
+  position: fixed;
+  top: 200px;
+  left: 550px;
+  font-size: 64pt;
+  color: white;
+  border-bottom:1px solid white;
+  padding-bottom: 20px;
+  font-family: 'Corben';
+}
+
+.first {
+  position: fixed;
+  top: 450px;
+  left: 550px;
+  right: 350px;
+  font-family: 'Corben';
+  font-size: 18pt;
+  color: white;
+}
+
+.second {
+  position: fixed;
+  top: 550px;
+  left: 550px;
+  right: 350px;
+  font-family: 'Corben';
+  font-size: 18pt;
+  color: white;
+}
+
+.logo {
+  position: fixed;
+  top: 50px;
+  left: 700px;
+  right: 200px;
+  bottom: 100px;
+}
+
+.nav {
+  position: fixed;
+  top: 50px;
+  left: 450px;
+
+}
